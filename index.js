@@ -58,7 +58,7 @@ async function main() {
 			c3: [530, 530]
 		};
 		player = player === 1 ? img_x : player === 2 ? img_o : null;
-		ctx.drawImage(player, Pos[xy][0], Pos[xy][1], 200, 200)
+		ctx.drawImage(player, Pos[xy][0], Pos[xy][1], 200, 200);
 	}
 	
 	PlayPos('a1', 1)
